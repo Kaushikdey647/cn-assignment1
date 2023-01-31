@@ -2,19 +2,13 @@
 
 Implement the given topology using ns2-nam suite. The topology is given below:
 
-![TOPOLOGY JPEG](.\assets\top.jpg)
+![TOPOLOGY JPEG](https://github.com/Kaushikdey647/cn-assignment1/blob/master/assets/top.jpg?raw=true)
 
 **Name: Kaushik Dey**
 
 **Roll No: 20CS01043**
 
 **Date: 31/01/2023**
-
-## 1. Routing Protocol
-
-The routing protocol used is Static Routing. The routing table is given below:
-
-![Routing Table](.\assets\routing_table.jpg)
 
 ## 2. Simulation
 
@@ -29,7 +23,7 @@ nam out.nam
 
 The NAM output is given below:
 
-![NAM Output](assets\screenshot.jpg)
+![NAM Output](https://github.com/Kaushikdey647/cn-assignment1/blob/master/assets/screenshot.jpg?raw=true)
 
 ## Average end to end delay
 
