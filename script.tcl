@@ -73,6 +73,10 @@ proc finish {} {
 
 set tcp1 [new Agent/TCP/Reno]
 
+# Set flow color to blue
+
+$tcp1 set class_ 1
+
 $ns attach-agent $A $tcp1
 
 ## Create a sink agent and attatch it to B
@@ -91,9 +95,7 @@ $ftp1 attach-agent $tcp1
 
 $ns connect $tcp1 $sink1
 
-# Set flow color to blue
 
-# $tcp1 fid_ 1
 
 #########################################################################
 
@@ -102,6 +104,10 @@ $ns connect $tcp1 $sink1
 ## Create a udp agent and attatch it to C
 
 set udp1 [new Agent/UDP]
+
+## Set flow color to red
+
+$udp1 set class_ 3
 
 $ns attach-agent $C $udp1
 
@@ -121,9 +127,6 @@ $udpapp1 attach-agent $udp1
 
 $ns connect $udp1 $sink2
 
-## Set flow color to red
-
-# $udp1 fid 3
 
 #########################################################################
 
@@ -133,7 +136,12 @@ $ns connect $udp1 $sink2
 
 set tcp2 [new Agent/TCP/Reno]
 
+## Set flow color to green
+
+$tcp2 set class_ 2
+
 $ns attach-agent $D $tcp2
+
 
 ## Create a sink agent and attatch it to B
 
@@ -151,9 +159,7 @@ $tcpapp1 attach-agent $tcp2
 
 $ns connect $tcp2 $sink3
 
-## Set flow color to green
 
-# $tcp2 fid_ 2
 
 #########################################################################
 
