@@ -2,7 +2,7 @@
 
 Implement the given topology using ns2-nam suite. The topology is given below:
 
-![TOPOLOGY JPEG](assets\top.jpg)
+![TOPOLOGY JPEG](.\assets\top.jpg)
 
 **Name: Kaushik Dey**
 
@@ -14,7 +14,7 @@ Implement the given topology using ns2-nam suite. The topology is given below:
 
 The routing protocol used is Static Routing. The routing table is given below:
 
-![Routing Table](assets\routing_table.jpg)
+![Routing Table](.\assets\routing_table.jpg)
 
 ## 2. Simulation
 
